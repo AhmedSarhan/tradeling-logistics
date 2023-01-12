@@ -1,0 +1,16 @@
+.logistics-main {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 2rem;
+  padding: 20px 15px;
+  // margin-block: 20px;
+  background-image: url("https://c8n.tradeling.com/img/plain/cms/rs:auto:1800::0/f:webp/q:95/Banner_7c6ceef7ba.png");
+  background-size: cover;
+  background-position: center;
+  background-color: blue;
+
+  @media screen and (max-width: 768px) {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+
+  }
+}
